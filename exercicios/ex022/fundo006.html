@@ -12,14 +12,21 @@
             background-position: center center;
             background-repeat: no-repeat;
            /* background-size:(por padrão é auto) 100% 100%; */
-           background-size: cover; 
+            background-size: cover; 
            /*(contain = imagem inteira exibida, sem corte
             (conver = imagem do tamanho da tela, vai ajeitando com cortes*/
+            background-attachment: fixed; /*scroll*/
+
+            /* Shorthand - background                   size está na documentação, porém ainda não da para usar
+                color > image > position > repeat > [size] > attachment
+
+                 background: black , url('imagens/wallpaper.jpg') center center no-repeat cover fixed;
+            */
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -30,6 +37,11 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, praesentium sunt repellat mollitia tempora molestias earum ab ex magnam nostrum dolore eveniet saepe consequuntur. Atque molestias odio dolores aliquam ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia debitis excepturi at. Sapiente corporis architecto quos molestiae magnam iste nesciunt ab eaque nostrum odit est accusantium voluptas itaque, ipsum optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, ab. Eaque, dolorum veniam, mollitia magnam, accusamus sunt delectus perspiciatis enim ipsa placeat nihil voluptate. Quam labore aperiam veritatis doloremque facere.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, praesentium sunt repellat mollitia tempora molestias earum ab ex magnam nostrum dolore eveniet saepe consequuntur. Atque molestias odio dolores aliquam ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia debitis excepturi at. Sapiente corporis architecto quos molestiae magnam iste nesciunt ab eaque nostrum odit est accusantium voluptas itaque, ipsum optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, ab. Eaque, dolorum veniam, mollitia magnam, accusamus sunt delectus perspiciatis enim ipsa placeat nihil voluptate. Quam labore aperiam veritatis doloremque facere.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, praesentium sunt repellat mollitia tempora molestias earum ab ex magnam nostrum dolore eveniet saepe consequuntur. Atque molestias odio dolores aliquam ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia debitis excepturi at. Sapiente corporis architecto quos molestiae magnam iste nesciunt ab eaque nostrum odit est accusantium voluptas itaque, ipsum optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, ab. Eaque, dolorum veniam, mollitia magnam, accusamus sunt delectus perspiciatis enim ipsa placeat nihil voluptate. Quam labore aperiam veritatis doloremque facere.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, praesentium sunt repellat mollitia tempora molestias earum ab ex magnam nostrum dolore eveniet saepe consequuntur. Atque molestias odio dolores aliquam ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia debitis excepturi at. Sapiente corporis architecto quos molestiae magnam iste nesciunt ab eaque nostrum odit est accusantium voluptas itaque, ipsum optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, ab. Eaque, dolorum veniam, mollitia magnam, accusamus sunt delectus perspiciatis enim ipsa placeat nihil voluptate. Quam labore aperiam veritatis doloremque facere.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, praesentium sunt repellat mollitia tempora molestias earum ab ex magnam nostrum dolore eveniet saepe consequuntur. Atque molestias odio dolores aliquam ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia debitis excepturi at. Sapiente corporis architecto quos molestiae magnam iste nesciunt ab eaque nostrum odit est accusantium voluptas itaque, ipsum optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, ab. Eaque, dolorum veniam, mollitia magnam, accusamus sunt delectus perspiciatis enim ipsa placeat nihil voluptate. Quam labore aperiam veritatis doloremque facere.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, praesentium sunt repellat mollitia tempora molestias earum ab ex magnam nostrum dolore eveniet saepe consequuntur. Atque molestias odio dolores aliquam ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia debitis excepturi at. Sapiente corporis architecto quos molestiae magnam iste nesciunt ab eaque nostrum odit est accusantium voluptas itaque, ipsum optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, ab. Eaque, dolorum veniam, mollitia magnam, accusamus sunt delectus perspiciatis enim ipsa placeat nihil voluptate. Quam labore aperiam veritatis doloremque facere.</p>
     </main>
 </body>
