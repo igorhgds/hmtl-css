@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Viagem</title>
+</head>
+<body>
+    <h1>Formulário de Reserva de Viagem Avançado</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Identificação:</legend>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome"><br><br>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Serviços Desejados:</legend>
+            <input type="checkbox" name="passagens" id="ipassagens">
+            <label for="ipassagens">Compra de Passagens</label>
+            <input type="checkbox" name="hospedagem" id="ihospedagem">
+            <label for="ihospedagem">Reserva de Hospedagem</label>
+            <input type="checkbox" name="veiculos" id="iveiculos">
+            <label for="iveiculos">Aluguel de Veículos</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Formas de Pagamentos:</legend>
+            <input type="radio" name="pagamento" id="ipix" checked>
+            <label for="ipix">Pix</label>
+            <input type="radio" name="pagamento" id="icartao">
+            <label for="icartao">Cartão de Crédito</label>
+            <input type="radio" name="pagamento" id="iboleto">
+            <label for="iboleto">Boleto</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Prazo de Pagamento:</legend>
+            <select name="prazo" id="iprazo">
+                <option value="aVista">À Vista</option>
+                <option value="cincoVezes">(5x) Cinco Vezes Sem Juros</option>
+                <option value="dezVezes">(10x) Dez Vezes Com Juros</option>
+            </select>
+        </fieldset><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
